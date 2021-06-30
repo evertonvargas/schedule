@@ -22,6 +22,7 @@ This project arose out of a need. In the past, it was difficult to see class sch
 <div align="center">
 <img src="images/after.JPG" alt="My website">
 </div>
+
 ## :globe_with_meridians: **Links**
 
 - Url: [Schedule](https://schedule-92nlxpvl5-evertonvargas.vercel.app/)
