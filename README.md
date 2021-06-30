@@ -1,7 +1,7 @@
 <div align="center">
  <a href="#rocket-class-schedules">Project</a> •
  <a href="#camera-screenshot">Screenshot</a> •
- <a href="#globe_with_meridians-links">Links</a> •
+ <a href="#globe_with_meridians-website">Website</a> •
  <a href="#hammer_and_wrench-technologies">Technologies</a> •
  <a href="#arrow_forward-run">Run</a> •
  <a href="#boy-author">Author</a>
@@ -23,7 +23,7 @@ This project arose out of a need. In the past, it was difficult to see class sch
 <img src="images/after.JPG" alt="My website">
 </div>
 
-## :globe_with_meridians: **Links**
+## :globe_with_meridians: **Website**
 
 - Url: [Schedule](https://schedule-92nlxpvl5-evertonvargas.vercel.app/)
 
