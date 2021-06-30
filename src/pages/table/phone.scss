@@ -1,0 +1,355 @@
+@import 'mediaPhone';
+
+.main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 0.3fr 1.8fr 0.3fr repeat(2,1.8fr) 0.3fr repeat(3,1.8fr) 0.3fr 1.8fr 0.3fr repeat(3,1.8fr) 0.3fr 1.8fr;
+  align-items: center;
+  grid-auto-flow: row;
+  width: 100%;
+  grid-template-areas:
+    "monday monday"
+    "hora3 mondayhora3"
+ 
+    "tuesday tuesday"
+    "hora31 tuesdayhora3"
+    "hora51 tuesdayhora5"
+
+    "wednesday wednesday"
+    "hora12 wednesdayhora1"
+    "hora32 wedhora3"
+    "hora52 wedhora5"
+
+    "thursday thursday"
+    "hora13 thhora1"
+    "hora23 thhora2"
+    "hora33 thhora3"
+    "hora43 thhora4"
+    "hora53 thhora5"
+
+    "friday  friday"
+    "hora44 fhora5";
+
+    .hourBorder, .borderClass{
+      border-style: solid;
+      border-color: #dee9fb;
+      border-top-style: none;
+      height: 100%;
+      width: 100%;
+      border-width: thin;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .borderClass{
+      border-left-style: none;
+    }
+}
+
+
+.days {
+  position: relative;
+  background: #7159c1;
+  color: #fff;
+  padding: 10px;
+  border-right: 1px solid #dee9fb;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+
+  > span {
+    font-size: 16px;
+    color: #4b4b4b;
+  }
+
+  > p {
+    font-size: 14px;
+    color: #9a8ebf;
+  }
+
+  a {
+    background: #7159c1;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px;
+    text-align: center;
+    width: 120px;
+    font-size: 16px;
+  }
+}
+
+.aula {
+  a {
+    border-radius: 20px;
+  }
+}
+
+.atendimento {
+  a {
+    padding: 7px 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.hourA{
+  font-size: 10px !important;
+  background: #ebe1e1;
+  border-radius: 20px;
+  padding: 2px 5px;
+  display: none;
+}
+
+.hide, .time{
+  display: none;
+}
+
+.hide p{
+  display: none;
+}
+
+.time {
+  grid-area: time;
+}
+
+.monday {
+  grid-area: monday;
+}
+
+.tuesday {
+  grid-area: tuesday;
+}
+
+.wednesday {
+  grid-area: wednesday;
+}
+
+.thursday {
+  grid-area: thursday;
+}
+
+.friday {
+  grid-area: friday;
+}
+
+.hora1 {
+  grid-area: hora1;
+}
+
+.hora2 {
+  grid-area: hora2;
+}
+
+.hora3 {
+  grid-area: hora3;
+}
+
+.hora4 {
+  grid-area: hora4;
+}
+
+.hora5 {
+  grid-area: hora5;
+}
+
+.hora11 {
+  grid-area: hora11;
+}
+
+.hora21 {
+  grid-area: hora21;
+}
+
+.hora31 {
+  grid-area: hora31;
+}
+
+.hora41 {
+  grid-area: hora41;
+}
+
+.hora51 {
+  grid-area: hora51;
+}
+
+.hora12 {
+  grid-area: hora12;
+}
+
+.hora22 {
+  grid-area: hora22;
+}
+
+.hora32 {
+  grid-area: hora32;
+}
+
+.hora42 {
+  grid-area: hora42;
+}
+
+.hora52 {
+  grid-area: hora52;
+}
+
+.hora13 {
+  grid-area: hora13;
+}
+
+.hora23 {
+  grid-area: hora23;
+}
+
+.hora33 {
+  grid-area: hora33;
+}
+
+.hora43 {
+  grid-area: hora43;
+}
+
+.hora53 {
+  grid-area: hora53;
+}
+
+.hora14 {
+  grid-area: hora14;
+}
+
+.hora24 {
+  grid-area: hora24;
+}
+
+.hora34 {
+  grid-area: hora34;
+}
+
+.hora44 {
+  grid-area: hora44;
+}
+
+.hora54 {
+  grid-area: hora54;
+}
+
+.mondayhora1 {
+  grid-area: mondayhora1;
+}
+
+.mondayhora2 {
+  grid-area: mondayhora2;
+}
+
+.mondayhora3 {
+  grid-area: mondayhora3;
+}
+
+.mondayhora4 {
+  grid-area: mondayhora4;
+}
+
+.mondayhora5 {
+  grid-area: mondayhora5;
+}
+
+.tuesdayhora1 {
+  grid-area: tuesdayhora1;
+}
+
+.tuesdayhora2 {
+  grid-area: tuesdayhora2;
+}
+
+.tuesdayhora3 {
+  grid-area: tuesdayhora3;
+}
+
+.tuesdayhora4 {
+  grid-area: tuesdayhora4;
+}
+
+.tuesdayhora5 {
+  grid-area: tuesdayhora5;
+}
+
+.wednesdayhora1 {
+  grid-area: wednesdayhora1;
+}
+
+.wedhora2 {
+  grid-area: wedhora2;
+}
+
+.wedhora3 {
+  grid-area: wedhora3;
+}
+
+.wedhora4 {
+  grid-area: wedhora4;
+}
+
+.wedhora5 {
+  grid-area: wedhora5;
+}
+
+.thhora5 {
+  grid-area: thhora5;
+}
+
+.fhora5 {
+  grid-area: fhora5;
+}
+
+.fhora4 {
+  grid-area: fhora4;
+}
+
+.thhora4 {
+  grid-area: thhora4;
+}
+
+.thhora1 {
+  grid-area: thhora1;
+}
+
+.fhora1 {
+  grid-area: fhora1;
+}
+
+.fhora2 {
+  grid-area: fhora2;
+}
+
+.thhora2 {
+  grid-area: thhora2;
+}
+
+.thhora3 {
+  grid-area: thhora3;
+}
+
+.fhora3 {
+  grid-area: fhora3;
+}
+
+

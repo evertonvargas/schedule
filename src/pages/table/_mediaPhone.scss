@@ -1,0 +1,60 @@
+@media (min-width: 1000px) {
+  .main {
+    margin-top: 50px !important;
+  }
+
+  .container {
+    max-width: 1200px;
+    grid-template-columns: 0.6fr repeat(5, 0.8fr) !important;
+    grid-template-rows: 0.3fr 1.8fr 0.3fr repeat(3, 1.8fr) !important;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "time monday tuesday wednesday thursday friday"
+      "hora1 mondayhora1 tuesdayhora1 wednesdayhora1 thhora1 fhora1"
+      "hora2 mondayhora2 tuesdayhora2 wedhora2 thhora2 fhora2"
+      "hora3 mondayhora3 tuesdayhora3 wedhora3 thhora3 fhora3"
+      "hora4 mondayhora4 tuesdayhora4 wedhora4 thhora4 fhora4"
+      "hora5 mondayhora5 tuesdayhora5 wedhora5 thhora5 fhora5" !important;
+  }
+
+  .card a {
+    padding: 5px !important;
+    font-size: 14px;
+  }
+
+  .atendimento {
+    a {
+      padding: 5px 8px !important;
+    }
+  }
+
+  .hide p,
+  .hide,
+  .time {
+    display: flex !important;
+  }
+
+  .time {
+    grid-area: time;
+    display: block !important;
+  }
+
+  .hourA {
+    display: block !important;
+  }
+
+  .hora12,
+  .hora32,
+  .hora52,
+  .hora31,
+  .hora51,
+  .hora13,
+  .hora23,
+  .hora33,
+  .hora43,
+  .hora53,
+  .hora44 {
+    display: none !important;
+  }
+}
