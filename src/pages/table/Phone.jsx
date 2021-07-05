@@ -11,6 +11,9 @@ export function Phone() {
         </div>
         <div className="monday days">
           <p>Segunda</p>
+          <span>
+             <svg focusable="false" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </span>
         </div>
         <div className="tuesday days">
           <p>Terça</p>
@@ -36,7 +39,7 @@ export function Phone() {
         </div>
         <div class="hora4 hourBorder hide"><p>17:30 - 18:30</p></div>
         <div class="hora5 hourBorder hide"><p>18:30 - 20:30</p></div>
-
+        <div class="horapp hourBorder"><p>19:00 - 20:00</p></div>
 
         <div class="hora31 hourBorder">
           <p>13:30 - 17:30</p>
@@ -86,7 +89,15 @@ export function Phone() {
           />
         </div>
         <div class="mondayhora4 borderClass hide"></div>
-        <div class="mondayhora5 borderClass hide"></div>
+        <div class="mondayhora5 borderClass card atendimento">
+        <p className="hourA">19:00-20:00</p>
+        <Class
+          subject="Projeto Integrador"
+          teacher="Francisco"
+          topic="Atendimento"
+          link="https://meet.google.com/byg-gdeo-kdf"
+        />
+        </div>
 
         <div class="tuesdayhora1 borderClass hide"></div>
         <div class="tuesdayhora2 borderClass hide"></div>
