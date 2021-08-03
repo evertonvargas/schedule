@@ -56,7 +56,7 @@ export function Phone() {
         </div>
 
         <div class="hora13 hourBorder">
-          <p>10:30 - 11:30</p>
+          <p>10:00 - 11:40</p>
         </div>
         <div class="hora23 hourBorder">
           <p>11:30 - 12:30</p>
@@ -110,9 +110,9 @@ export function Phone() {
         <div class="tuesdayhora5 card aula borderClass">
           <Class
             subject="Ciência e Tecnologia"
-            teacher="Professor"
+            teacher="Patricia Rosa"
             topic="Aula"
-            link="https://conferenciaweb.rnp.br/webconf/elieser-donizete-spereta"
+            link="https://conferenciaweb.rnp.br/webconf/patricia-rosa-3"
           />
         </div>
 
@@ -144,12 +144,13 @@ export function Phone() {
         />
         </div>
         
-        <div class="thhora1 borderClass card atendimento">
+        <div class="thhora1 borderClass card aula">
+        <p className="hourA">10:00-11:40</p>
         <Class
-          subject="Projeto Integrador"
-          teacher="Cythia"
-          topic="Atendimento"
-          link="https://meet.google.com/kgp-nvmq-eqw"
+          subject="Empreendedorismo"
+          teacher="Taylor"
+          topic="Aula"
+          link="https://meet.google.com/bec-zmvv-tiv"
         />
         </div>
         <div class="thhora2 borderClass"></div>
