@@ -138,7 +138,7 @@ export function Phone() {
         <div class="wedhora5 borderClass card aula">
         <Class
           subject="Gestão da Manutenção"
-          teacher="Professor"
+          teacher="Marlos"
           topic="Aula"
           link="https://meet.google.com/qme-jcuk-wir"
         />
@@ -170,13 +170,7 @@ export function Phone() {
           link="https://meet.google.com/kgp-nvmq-eqw"
         />
         </div>
-        <div class="thhora5 borderClass card aula">
-        <Class
-          subject="Empreendedorismo"
-          teacher="Professor"
-          topic="Aula"
-          link="https://conferenciaweb.rnp.br/webconf/silvana-rosa-lisboa-de-sa"
-        />
+        <div class="thhora5 borderClass">
         </div>
 
         <div class="fhora1 borderClass hide"></div>
