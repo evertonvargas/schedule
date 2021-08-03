@@ -11,7 +11,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: 0.3fr 1.8fr 1.8fr 0.3fr repeat(2,1.8fr) 0.3fr repeat(3,1.8fr) 0.3fr 1.8fr 0.3fr repeat(3,1.8fr) 0.3fr 1.8fr;
+  grid-template-rows: 0.3fr 1.8fr 1.8fr 0.3fr repeat(2,1.8fr) 0.3fr repeat(3,1.8fr) 0.3fr 1.8fr 0.3fr repeat(2,1.8fr) 0.3fr 1.8fr;
   align-items: center;
   grid-auto-flow: row;
   width: 100%;
@@ -35,7 +35,6 @@
     "hora23 thhora2"
     "hora33 thhora3"
     "hora43 thhora4"
-    "hora53 thhora5"
 
     "friday  friday"
     "hora44 fhora5";
@@ -240,10 +239,6 @@
 
 .hora43 {
   grid-area: hora43;
-}
-
-.hora53 {
-  grid-area: hora53;
 }
 
 .hora14 {

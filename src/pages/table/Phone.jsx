@@ -67,9 +67,6 @@ export function Phone() {
         <div class="hora43 hourBorder">
           <p>17:30 - 18:30</p>
         </div>
-        <div class="hora53 hourBorder">
-          <p>18:30 - 20:30</p>
-        </div>
 
         <div class="hora44 hourBorder">
           <p>19:00 - 20:00</p>
